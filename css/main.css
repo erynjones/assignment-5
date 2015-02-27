@@ -5,3 +5,8 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #cd5b34;
+  text-align: center;
+}

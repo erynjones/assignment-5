@@ -43,9 +43,10 @@ nav a {
   border-top: 1px solid black;
   border-left: 1px solid black;
   margin: 0;
-  padding: 0.5em 0.5em 0.5em 0.5em
+  padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
   background-color: #cd5b34;
+  text-decoration: none;
 }
 
 nav ol {
@@ -102,6 +103,7 @@ div {
 
 .corn {
   width: 100%;
+  margin: 0;
 }
 
 li {
@@ -132,4 +134,9 @@ li {
 footer {
   text-align: center;
   background-color: #cd5b34;
+}
+
+figcaption {
+  text-align: center;
+  color: white;
 }

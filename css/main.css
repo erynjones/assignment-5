@@ -32,6 +32,7 @@ h2  {
   font-size: 1.5rem;
   text-align: center;
   background-color: #d98156;
+  clear: right;
 }
 
 nav li{
@@ -41,4 +42,29 @@ nav li{
 footer {
   text-align: center;
   background-color: #cd5b34;
+}
+
+nav a{
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.grains {
+  float: left;
+  width: 25%;
+  margin-right: 15px;
+}
+
+.inset {
+  float: right;
+  width: 25%;
+  margin-right: 15px;
+}
+
+.clear-it {
+  clear: right;
+}
+
+.p2 {
+  clear: left;
 }

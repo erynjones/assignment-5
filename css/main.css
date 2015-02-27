@@ -6,7 +6,39 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  line-height: 1.5;
+  margin: 0;
+  font-family: Merriweather;
+}
+
 header {
+  color: white;
   background-color: #cd5b34;
   text-align: center;
+}
+
+ img {
+   width: 25%;
+ }
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem
+}
+
+h2  {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #d98156;
+}
+
+nav li{
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  background-color: #cd5b34;
 }

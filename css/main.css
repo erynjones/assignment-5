@@ -16,11 +16,14 @@ header {
   color: white;
   background-color: #cd5b34;
   text-align: center;
+  padding: 1em 0em 0em 0em;
 }
 
 h1 {
   font-weight: bold;
   font-size: 3rem
+  border: 0;
+  margin: 0;
 }
 
 h2  {
@@ -29,6 +32,7 @@ h2  {
   text-align: center;
   background-color: #d98156;
   clear: right;
+  color: white;
 }
 
 nav li {
@@ -87,12 +91,14 @@ nav ol {
   float: left;
   width: 10%;
   margin-right: 15px;
+  margin: 0
 }
 
 .graphics-2 {
   float: right;
   width: 10%;
   margin-right: 15px;
+  margin: 0
 }
 
 div {
@@ -104,6 +110,7 @@ div {
 .corn {
   width: 100%;
   margin: 0;
+  float: left;
 }
 
 li {
@@ -138,5 +145,30 @@ footer {
 
 figcaption {
   text-align: center;
+  color: white;
+}
+
+em {
+  font-weight: bold;
+}
+
+.peanuts {
+  width: 25%;
+}
+
+.beans {
+  width: 25%;
+}
+
+.lentils{
+  width: 25%;
+}
+
+figure {
+  margin: 0;
+}
+
+footer {
+  padding: 1em 1em 1em 1em;
   color: white;
 }
